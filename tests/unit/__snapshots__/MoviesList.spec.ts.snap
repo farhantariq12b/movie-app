@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard.vue should render HTML correctly 1`] = `
+<div
+  id="movie-list"
+>
+  <div
+    class="flex flex-wrap justify-center"
+  >
+    
+    <div
+      data-testid="movie-list"
+    >
+      <movie-card-stub
+        movie="[object Object]"
+      />
+    </div>
+    
+  </div>
+</div>
+`;

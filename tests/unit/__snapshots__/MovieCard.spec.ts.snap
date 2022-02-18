@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard.vue should render HTML correctly 1`] = `
+<div
+  class="max-w-md h-md rounded overflow-hidden shadow-lg m-2"
+>
+  <img
+    alt="Sunset in the mountains"
+    class="w-full"
+    src="https://random.imagecdn.app/500/150"
+  />
+  <div
+    class="px-6 py-4"
+  >
+    <div
+      class="font-bold text-xl mb-2"
+      data-testid="title"
+    >
+      Water
+    </div>
+  </div>
+  <div
+    class="px-2 pt-4 pb-2 flex flex-row justify-between"
+    data-testid="body"
+  >
+    <span
+      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+    >
+      ID: 1234
+    </span>
+    <span
+      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+    >
+      Year: 2021
+    </span>
+    <span
+      class="bg-yellow-200 inline-block pointer rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2"
+    >
+      Favourite
+    </span>
+  </div>
+</div>
+`;
